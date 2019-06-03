@@ -1,10 +1,10 @@
-#UNIFIED AUDITING
+# UNIFIED AUDITING
 
 Unified Auditing is enabled by default. You can audit the several types of activities, using unified audit policies and the AUDIT SQL statement.
 All audit records are written to the unified audit trail in a uniform format and are made available through the UNIFIED_AUDIT_TRAIL view.
 The unified audit trail captures audit information from many types of object, from SQL statements to other Oracle Database Components, such as Data Pump, SQL*Loader etc.
 
-##Benefits of the Unified Audit Trail
+## Benefits of the Unified Audit Trail
 
 - The audit records are placed in one location and in one format, rather than your having to look in different places to find audit trails in varying formats. 
 - This consolidated view enables auditors to co-relate audit information from different components.
