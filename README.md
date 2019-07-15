@@ -1,3 +1,13 @@
+## Objectives
+	
+The objective of this lab is to create an audit policy for the update done on ORDERS table and then to query UNIFIED_AUDIT_TRAIL to view the generated audit records. 
+
+We will do the following:
+
+- Create an audit policy
+- Enable the policy and apply audit settings to one or more users.
+- View the generated audit records.
+
 # UNIFIED AUDITING
 
 Unified Auditing is enabled by default. You can audit the several types of activities, using unified audit policies and the AUDIT SQL statement.
@@ -11,16 +21,6 @@ The unified audit trail captures audit information from many types of object, fr
 - The management and security of the audit trail is also improved by having it in single audit trail.
 - Overall auditing performance is greatly improved. By default, the audit records are automatically written to an internal relational table
 - You can create named audit policies that enable you to audit the supported components. Furthermore, you can build conditions and exclusions into your policies.
-
-## Objectives
-	
-The objective of this lab is to create an audit policy for the update done on ORDERS table and then to query UNIFIED_AUDIT_TRAIL to view the generated audit records. 
-
-We will do the following:
-
-- Create an audit policy
-- Enable the policy and apply audit settings to one or more users.
-- View the generated audit records.
 
 ## Required Artifacts
 
